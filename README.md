@@ -21,13 +21,13 @@ Minion hate bot is an angry bot that, every fifteen minutes, replies to 15 tweet
 
     Configuration parameters:
 
-    `Consumer key` consumer key of your Twitter application. Can be found in the tab "Keys and Access Tokens"
+    `Consumer key` - consumer key of your Twitter application. Can be found in the tab "Keys and Access Tokens"
 
-    `Consumer secret` consumer secret of your Twitter application. Can be found in the tab "Keys and Access Tokens"
+    `Consumer secret` - consumer secret of your Twitter application. Can be found in the tab "Keys and Access Tokens"
 
-    `Access token` access token of your Twitter application. To generate it; look at step 2
-    
-    `Access token secret` access token secret of your Twitter application. To generate it; look at step 2
+    `Access token` - access token of your Twitter application. To generate it; look at step 2
+
+    `Access token secret` - access token secret of your Twitter application. To generate it; look at step 2
 
 4. Running it in the background
 
