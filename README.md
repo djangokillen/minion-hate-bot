@@ -5,7 +5,7 @@ Minion hate bot is an angry bot that, every fifteen minutes, replies to 15 tweet
 
 ## Installation
 
-1. Register a Twitter application ([apps.twitter.com](https://apps.twitter.com)). In order for this to work you must have a Twitter account and a phone number associated with it
+1. Register a Twitter application ([apps.twitter.com](https://apps.twitter.com)). In order for this to work you must have a Twitter account and a phone number associated with it.
 
 2. Generate an ACCESS_KEY and ACCESS_SECRET under the tab "Keys and Access Tokens"
 
@@ -17,9 +17,10 @@ Minion hate bot is an angry bot that, every fifteen minutes, replies to 15 tweet
 
 3. Adjust configuration
     
-    Edit the file minions.py with the configuration parameters below
+    Edit the file `minions.py` with the configuration parameters below.
 
     Configuration parameters:
+
     `Consumer key` consumer key of your Twitter application. Can be found in the tab "Keys and Access Tokens"
     `Consumer secret` consumer secret of your Twitter application. Can be found in the tab "Keys and Access Tokens"
     `Access token` access token of your Twitter application. To generate it; look at step 2
@@ -31,9 +32,9 @@ Minion hate bot is an angry bot that, every fifteen minutes, replies to 15 tweet
 
     To make the command work, open up your command line and type this: 
 
-        ```bash
-        $ nohup /usr/bin/python /path/to/python/script &
-        ```
+    ```bash
+    $ nohup /usr/bin/python /path/to/python/script &
+    ```
 
     The python script should now run every 15 minutes and be fully automated.
 
