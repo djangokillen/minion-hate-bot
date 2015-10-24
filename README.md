@@ -19,8 +19,6 @@ Minion hate bot is an angry bot that, every fifteen minutes, replies to 15 tweet
     
     Edit the file `minions.py` with the configuration parameters below.
 
-    Configuration parameters:
-
     `Consumer key` - consumer key of your Twitter application. Can be found in the tab "Keys and Access Tokens"
 
     `Consumer secret` - consumer secret of your Twitter application. Can be found in the tab "Keys and Access Tokens"
