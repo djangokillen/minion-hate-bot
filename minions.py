@@ -10,7 +10,6 @@ def main():
     auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
     api = tweepy.API(auth)
 
-    
     while True:
         minion_tweets = api.search(q="minions")
 
