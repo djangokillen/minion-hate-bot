@@ -1,16 +1,17 @@
 import tweepy, time, random
 
 def main():
+    CONSUMER_KEY = 'your_consumer_key'
+    CONSUMER_SECRET = 'your_consumer_secret'
+    ACCESS_KEY = 'your_access_key'
+    ACCESS_SECRET = 'your_access_secret'
+
+    auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+    auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
+    api = tweepy.API(auth)
+
+    
     while True:
-        CONSUMER_KEY = 'your_consumer_key'
-        CONSUMER_SECRET = 'your_consumer_secret'
-        ACCESS_KEY = 'your_access_key'
-        ACCESS_SECRET = 'your_access_secret'
-
-        auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
-        auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
-        api = tweepy.API(auth)
-
         minion_tweets = api.search(q="minions")
 
         minion_answers = [
