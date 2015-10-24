@@ -1,9 +1,7 @@
 import tweepy, time, random
 
 def main():
-    quit = False
-
-    while not quit:
+    while True:
         CONSUMER_KEY = 'your_consumer_key'
         CONSUMER_SECRET = 'your_consumer_secret'
         ACCESS_KEY = 'your_access_key'
