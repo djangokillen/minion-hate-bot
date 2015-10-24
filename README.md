@@ -39,6 +39,8 @@ Minion hate bot is an angry bot that, every fifteen minutes, replies to 15 tweet
 
     The python script should now run every 15 minutes and be fully automated.
 
+    (Warning: this will stop working if you shut down your computer, or just close it down temporarily if you have a laptop. Not a good solution.)
+
 5. You should see your bot tweeeting about how they fully DESPISE minions!
 
 ## License
