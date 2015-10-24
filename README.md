@@ -3,6 +3,8 @@
 ## About
 Minion hate bot is an angry bot that, every fifteen minutes, replies to 15 tweets containing the word "minions". You can find the Twitter account [here](https://twitter.com/minionsareevil).
 
+Note: replying to 15 tweets every fifteen minutes is not ideal. Twitter will hide your tweets from the person receiving them after a while. You may want to lower it down quite a bit.
+
 ## Installation
 
 1. Register a Twitter application ([apps.twitter.com](https://apps.twitter.com)). In order for this to work you must have a Twitter account and a phone number associated with it.
