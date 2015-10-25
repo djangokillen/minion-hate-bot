@@ -6,7 +6,7 @@ Minion hate bot is an angry bot that, every fifteen minutes, replies to 15 tweet
 Note: replying to 15 tweets every fifteen minutes is not ideal. Twitter will hide your tweets from the person receiving them after a while. You may want to lower it down quite a bit.
 
 ## Requirements
-This package uses [Tweepy](http://www.tweepy.org), the time module and the random module to function.
+This package uses [Tweepy](http://www.tweepy.org), the time module and the random module to function. Built with Python 2.
 
 ## Installation
 
@@ -32,7 +32,15 @@ This package uses [Tweepy](http://www.tweepy.org), the time module and the rando
 
     `Access token secret` - access token secret of your Twitter application. To generate it; look at step 2
 
-4. Running it in the background
+## Running it
+
+To run it, cd into the root of your downloaded project and write the following:
+
+    ```bash
+    $ python src/main.py
+    ```
+
+### Running it in the background
 
     The process can be ran in the background with the command [nohup](https://en.wikipedia.org/wiki/Nohup). With this command you can safely close down the command line without having to worry about it not working anymore.
 
