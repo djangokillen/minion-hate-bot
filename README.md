@@ -42,19 +42,21 @@ To run it, cd into the root of your downloaded project and write the following:
 
 ### Running it in the background
 
-    The process can be ran in the background with the command [nohup](https://en.wikipedia.org/wiki/Nohup). With this command you can safely close down the command line without having to worry about it not working anymore.
+The process can be ran in the background with the command [nohup](https://en.wikipedia.org/wiki/Nohup). With this command you can safely close down the command line without having to worry about it not working anymore.
 
-    To make the command work, open up your command line and type this: 
+To make the command work, open up your command line and type this: 
 
     ```bash
     $ nohup /usr/bin/python /path/to/python/script &
     ```
 
-    The python script should now run every 15 minutes and be fully automated.
+The python script should now run every 15 minutes and be fully automated.
 
-    (Warning: this will stop working if you shut down your computer, or just close it down temporarily if you have a laptop. Not a good solution.)
+(Warning: this will stop working if you shut down your computer, or just close it down temporarily if you have a laptop. Not a good solution.)
 
-5. You should see your bot tweeeting about how they fully DESPISE minions!
+## Final result
+
+You should see your bot tweeeting about how they fully DESPISE minions!
 
 ## License
 This repository is released under the [MIT license](LICENSE.md).
