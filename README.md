@@ -36,9 +36,9 @@ This package uses [Tweepy](http://www.tweepy.org), the time module and the rando
 
 To run it, cd into the root of your downloaded project and write the following:
 
-    ```bash
-    $ python src/main.py
-    ```
+```bash
+$ python src/main.py
+```
 
 ### Running it in the background
 
@@ -46,9 +46,9 @@ The process can be ran in the background with the command [nohup](https://en.wik
 
 To make the command work, open up your command line and type this: 
 
-    ```bash
-    $ nohup /usr/bin/python /path/to/python/script &
-    ```
+```bash
+$ nohup /usr/bin/python /path/to/python/script &
+```
 
 The python script should now run every 15 minutes and be fully automated.
 
