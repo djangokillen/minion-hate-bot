@@ -13,9 +13,12 @@ def main():
     while True:
         minion_tweets = api.search(q="minions")
 
-        answers_file = open('custom/answers/answers.txt', 'r')
-        minion_answers = answers_file.read().splitlines()
-        answers_file.close()
+        try:
+            answers_file = open('custom/answers/answers.txt', 'r')
+            minion_answers = answers_file.read().splitlines()
+            answers_file.close()
+        except IOError:
+            print "Oops, something went wrong. Could not find answers.txt file."
 
         for minion_tweet in minion_tweets:
             sn = minion_tweet.user.screen_name
