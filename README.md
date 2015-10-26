@@ -59,4 +59,4 @@ The python script should now run every 15 minutes and be fully automated.
 You should see your bot tweeeting about how they fully DESPISE minions!
 
 ## License
-This repository is released under the [MIT license](LICENSE.md).
+This repository is released under the [MIT license](LICENSE).
