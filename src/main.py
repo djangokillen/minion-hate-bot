@@ -13,7 +13,7 @@ def main():
     while True:
         minion_tweets = api.search(q="minions")
 
-        answers_file = open('answers/answers.txt', 'r')
+        answers_file = open('custom/answers/answers.txt', 'r')
         minion_answers = answers_file.read().splitlines()
         answers_file.close()
 
