@@ -27,8 +27,8 @@ def main():
             api.update_status(status=minion_answer, in_reply_to_status_id=minion_tweet.id)
             print "Posted reply to: %s" % minion_tweet.id
         
+        print "Waiting %s seconds for next session" % find_setting('seconds_between_replies')
         time.sleep(int(find_setting('seconds_between_replies')))
-        print "Waiting %s seconds for next session" % find_setting('seconds_between_reply')
 
 # Thanks to this wonderful tutorial http://www.decalage.info/en/python/configparser, this was easy
 def settings():
