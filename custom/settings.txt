@@ -1,0 +1,8 @@
+consumer_key=123456789
+consumer_secret=123456789
+access_key=123456789
+access_key_secret=123456789
+keyword_search=minion
+answers_file=custom/answers/answers.txt
+reply_count=5
+seconds_between_replies=900
